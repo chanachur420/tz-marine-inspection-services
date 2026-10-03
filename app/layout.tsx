@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Head from "next/head";
-import SEOSchema from "@/components/SEOSchema";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -73,13 +71,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <body className="min-h-full flex flex-col bg-slate-50 text-slate-900">
-        <Head>
-          <meta
-            name="google-site-verification"
-            content="cWGCdqgHoysscr17mjXULNs890kr3Bva8bjQ9AamdWM"
-          />
-        </Head>
-        <SEOSchema />
+        {/* Simple test comment to verify deployment */}
         {children}
       </body>
     </html>
