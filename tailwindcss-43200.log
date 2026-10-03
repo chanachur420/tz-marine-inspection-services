@@ -1,0 +1,54 @@
+2026-10-03T19:31:49.332804Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2026-10-03T19:31:49.333750Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\afnan\\Documents\\marine-survey-app", pattern: "**/*", negated: false }
+2026-10-03T19:31:49.349298Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2026-10-03T19:31:49.349386Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\afnan\\Documents\\marine-survey-app" }
+2026-10-03T19:31:49.355724Z  INFO discover_sources: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.355795Z  INFO discover_sources:walk_synchronous: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.397587Z  INFO discover_sources:walk_synchronous: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.401277Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\lib\\supabase.ts"
+2026-10-03T19:31:49.401347Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\public\\globe.svg"
+2026-10-03T19:31:49.401354Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\app\\layout.tsx"
+2026-10-03T19:31:49.401471Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\app\\actions\\survey-request.ts"
+2026-10-03T19:31:49.401569Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\public\\next.svg"
+2026-10-03T19:31:49.401757Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\components\\ServicesGrid.tsx"
+2026-10-03T19:31:49.401917Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\package.json"
+2026-10-03T19:31:49.401924Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\components\\Hero.tsx"
+2026-10-03T19:31:49.401944Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\netlify.toml"
+2026-10-03T19:31:49.401952Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\components\\Header.tsx"
+2026-10-03T19:31:49.401989Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\AGENTS.md"
+2026-10-03T19:31:49.402128Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\public\\vercel.svg"
+2026-10-03T19:31:49.402246Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\public\\file.svg"
+2026-10-03T19:31:49.402303Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\components\\PortStatus.tsx"
+2026-10-03T19:31:49.402312Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\app\\page.tsx"
+2026-10-03T19:31:49.402312Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\components\\SurveyRequestForm.tsx"
+2026-10-03T19:31:49.402325Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\app\\icon.svg"
+2026-10-03T19:31:49.402370Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\public\\window.svg"
+2026-10-03T19:31:49.402947Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\CLAUDE.md"
+2026-10-03T19:31:49.403011Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\next.config.ts"
+2026-10-03T19:31:49.403042Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\tsconfig.json"
+2026-10-03T19:31:49.403086Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\README.md"
+2026-10-03T19:31:49.403335Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\postcss.config.mjs"
+2026-10-03T19:31:49.403826Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\eslint.config.mjs"
+2026-10-03T19:31:49.404068Z  INFO discover_sources: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.404162Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.404176Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.404191Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.405898Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.405945Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.405969Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.405976Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-10-03T19:31:49.406423Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\afnan\\Documents\\marine-survey-app\\app\\globals.css"
+2026-10-03T19:31:49.406448Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.406458Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.406482Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.406715Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.406742Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.406982Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.407861Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.407892Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.407901Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.408100Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.408671Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.408703Z  INFO get_globs:discover_sources: tailwindcss_oxide::scanner: enter
+2026-10-03T19:31:49.408713Z  INFO get_globs:discover_sources: tailwindcss_oxide::scanner: exit
+2026-10-03T19:31:49.458311Z  INFO get_globs: tailwindcss_oxide::scanner: exit

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#0f172a" />
+  <path d="M11 38h42l-7 11H20z" fill="#f97316" />
+  <path d="M17 32h30M22 25h20" fill="none" stroke="#f8fafc" stroke-linecap="round" stroke-width="4" />
+  <text x="32" y="59" fill="#f8fafc" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle">TZ</text>
+</svg>
