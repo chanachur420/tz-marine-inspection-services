@@ -1,0 +1,3 @@
+# Trivial file to force Netlify rebuild
+# This ensures a new deploy is triggered
+Last updated: $(date)
