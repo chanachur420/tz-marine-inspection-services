@@ -1,0 +1,18 @@
+Sitemap: https://tz-marine-inspection-services.netlify.app/sitemap.xml
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private paths
+Disallow: /api/
+Disallow: /admin/
+
+# Allow CSS, JS, images
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.svg$
+Allow: /*.ico$
+Allow: /*.webp$
