@@ -1,4 +1,4 @@
-Sitemap: https://tz-marine-inspection-services.netlify.app/sitemap.xml
+Sitemap: https://tz-marine-inspection-services.vercel.app/sitemap.xml
 
 User-agent: *
 Allow: /
