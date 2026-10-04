@@ -1,7 +1,12 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import { Anchor, ArrowUpRight, Menu, X } from "lucide.react";
+import {
+  Anchor,
+  ArrowUpRight,
+  Menu,
+  X,
+} from "lucide-react";
 
 const links = [
   { href: "#services", label: "Our services" },
