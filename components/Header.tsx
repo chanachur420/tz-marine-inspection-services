@@ -1,7 +1,7 @@
 "use client";
-
+import Image from "next/image";
 import { useState } from "react";
-import { Anchor, ArrowUpRight, Menu, X } from "lucide-react";
+import { Anchor, ArrowUpRight, Menu, X } from "lucide.react";
 
 const links = [
   { href: "#services", label: "Our services" },
@@ -28,7 +28,13 @@ export default function Header() {
           className="group flex items-center gap-3 transition-opacity duration-200 hover:opacity-80"
         >
           <span className="flex h-11 w-11 items-center justify-center rounded-sm bg-[#f97316] text-[#0f172a] transition-transform duration-300 group-hover:-rotate-6">
-            <Anchor className="h-6 w-6" aria-hidden="true" />
+            <Image
+              src="/images/custom-logo.jpg"
+              alt="TZ Marine Inspection Services Logo"
+              width={24}
+              height={24}
+              className="mr-2"
+            />
           </span>
           <span className="leading-tight">
             <span className="block text-sm font-semibold tracking-[0.18em] uppercase">
